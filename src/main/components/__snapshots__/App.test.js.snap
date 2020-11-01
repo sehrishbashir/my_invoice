@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<BrowserRouter
+  basename=""
+>
+  <styled.div>
+    <Header />
+    <div
+      className="App container text-left"
+    >
+      <withRouter(Breadcrumb) />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        path="/new"
+      />
+      <Route
+        component={[Function]}
+        path="/edit"
+      />
+    </div>
+  </styled.div>
+</BrowserRouter>
+`;
